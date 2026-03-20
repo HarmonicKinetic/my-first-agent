@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import { NextRequest } from "next/server";
 import { anthropic, MODEL, buildSearchSystemPrompt } from "@/lib/claude";
 import type { SearchRequest } from "@/lib/types";

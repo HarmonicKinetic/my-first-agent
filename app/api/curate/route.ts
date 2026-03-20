@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import { NextRequest, NextResponse } from "next/server";
 import { anthropic, MODEL, buildCuratorSystemPrompt } from "@/lib/claude";
 import type { CurateRequest, FeedItem } from "@/lib/types";
