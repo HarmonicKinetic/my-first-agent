@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf /Users/dominicrobson/.npm/_cacache)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Read(//Users/dominicrobson/Projects/**)",
+      "Bash(npx --yes create-next-app@latest curator-temp --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(node:*)",
+      "Bash(npm run:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
